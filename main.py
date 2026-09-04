@@ -18,3 +18,7 @@ texto_criptografado = criptografar(texto_original, 3)
 
 print(f"Texto Original: {texto_original}")
 print(f"Texto Criptografado: {texto_criptografado}")
+
+def descriptografar(texto_criptografado, deslocamento):
+    # A descriptografia é o inverso, então aplicamos o deslocamento negativo
+    return criptografar(texto_criptografado, -deslocamento)
