@@ -11,3 +11,10 @@ def criptografar(texto, deslocamento):
         else:
             resultado += caractere
     return resultado
+
+# Testando a função
+texto_original = "Projeto DevOps"
+texto_criptografado = criptografar(texto_original, 3)
+
+print(f"Texto Original: {texto_original}")
+print(f"Texto Criptografado: {texto_criptografado}")
