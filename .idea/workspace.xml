@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="GitHub Workflow" />
         <option value="Python Script" />
       </list>
     </option>
@@ -37,11 +38,12 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "feature-calculadora",
-    "last_opened_file_path": "C:/Users/jemar/Documents/DevOps/projeto-ci-cd-python"
+    "last_opened_file_path": "C:/Users/jemar/Documents/DevOps/projeto-ci-cd-python/.github/workflows"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jemar\Documents\DevOps\projeto-ci-cd-python\.github\workflows" />
       <recent name="C:\Users\jemar\Documents\DevOps\projeto-ci-cd-python" />
     </key>
   </component>
@@ -59,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788550697001</updated>
-      <workItem from="1788550698600" duration="2950000" />
+      <workItem from="1788550698600" duration="6308000" />
     </task>
     <servers />
   </component>
