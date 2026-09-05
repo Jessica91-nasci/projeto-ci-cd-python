@@ -1,0 +1,17 @@
+name: CD - Simula Deploy
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Baixando o codigo
+      uses: actions/checkout@v3
+
+    - name: Simular Processo de Deploy
+      run: |
+        echo "Iniciando processo de CD (Continuous Deployment)..."
+        echo "Preparando arquivos do projeto..."
+        echo "✅ Deploy realizado com sucesso no servidor de homologacao virtual!"
