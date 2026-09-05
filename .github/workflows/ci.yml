@@ -1,0 +1,19 @@
+name: CI - Inspecao e Teste
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Baixando o codigo do repositorio
+      uses: actions/checkout@v3
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Rodar o script Python para validar sintaxe
+      run: python main.py
