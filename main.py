@@ -28,3 +28,5 @@ print(f"Texto Recuperado: {texto_recuperado}")
 
 if texto_original == texto_recuperado:
     print("Sucesso: A lógica de segurança está funcionando perfeitamente!")
+
+input("\nPressione ENTER para encerrar o programa...")
