@@ -15,5 +15,5 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Rodar o script Python para validar sintaxe
-      run: python main.py
+    - name: Executar testes unitarios
+      run: python -m unittest test_main.py
